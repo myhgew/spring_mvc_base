@@ -46,5 +46,4 @@ public class MinutesController {
 	public @ResponseBody List<Activity> findAllActivities() {
 		return exerciseService.findAllActivities();
 	}
-	
 }
